@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<DamageDef Name="LocalInjuryBase" Abstract="True">
-		<workerClass>DamageWorker_AddInjury</workerClass>
-	</DamageDef>
-
 	<DamageDef Name="Sting" ParentName="LocalInjuryBase">
 		<defName>ToxicSting</defName>
 		<label>toxic sting</label>
 		<externalViolence>true</externalViolence>
-		<battleWound>true</battleWound>
 		<deathMessage>{0} has been stung to death.</deathMessage>
 		<hediff>Stab</hediff>
 		<hediffSolid>Crack</hediffSolid>
@@ -24,11 +19,15 @@
 		<armorCategory>Sharp</armorCategory>
 	</DamageDef>
 
+	<ToolCapacityDef>
+		<defName>ToxicSting</defName>
+		<label>toxic stinging</label>
+	</ToolCapacityDef>
+
 	<DamageDef ParentName="LocalInjuryBase">
 		<defName>Pierce</defName>
 		<label>pierce</label>
 		<externalViolence>true</externalViolence>
-		<battleWound>true</battleWound>
 		<deathMessage>{0} has been gored to death.</deathMessage>
 		<hediff>Stab</hediff>
 		<hediffSolid>Crack</hediffSolid>
@@ -37,17 +36,27 @@
 		<armorCategory>Sharp</armorCategory>
 	</DamageDef>
 
-  <DamageDef ParentName="LocalInjuryBase">
+	<ToolCapacityDef>
+		<defName>Pierce</defName>
+		<label>piercing</label>
+	</ToolCapacityDef>
+
+	<DamageDef ParentName="LocalInjuryBase">
+		<defName>BodyCrush</defName>
+		<label>crush</label>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been crushed to death.</deathMessage>
+		<hediff>Crush</hediff>
+		<hediffSkin>Shredded</hediffSkin>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Blunt</impactSoundType>
+		<armorCategory>Blunt</armorCategory>
+	</DamageDef>
+
+  <ToolCapacityDef>
     <defName>BodyCrush</defName>
-    <label>crush</label>
-    <externalViolence>true</externalViolence>
-    <deathMessage>{0} has been crushed to death.</deathMessage>
-    <hediff>Crush</hediff>
-    <hediffSkin>Shredded</hediffSkin>
-    <hediffSolid>Crack</hediffSolid>
-    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
-    <impactSoundType>Blunt</impactSoundType>
-    <armorCategory>Blunt</armorCategory>
-  </DamageDef>
+    <label>crushing</label>
+  </ToolCapacityDef>
 
 </Defs>

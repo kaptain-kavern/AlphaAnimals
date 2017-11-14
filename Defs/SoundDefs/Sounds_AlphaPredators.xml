@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DefPackage-SoundDef>
+<Defs>
 
 	<!-- ======================== Feralisk ======================== -->
 
 	<SoundDef>
 		<defName>Pawn_Feralisk_Call</defName>
+		<context>MapOnly</context>
 		<eventNames />
 		<subSounds>
 			<li>
@@ -32,6 +33,7 @@
 
 	<SoundDef>
 		<defName>Pawn_Feralisk_Angry</defName>
+		<context>MapOnly</context>
 		<eventNames />
 		<maxVoices>2</maxVoices>
 		<subSounds>
@@ -61,6 +63,7 @@
 
 	<SoundDef>
 		<defName>Pawn_Feralisk_Wounded</defName>
+		<context>MapOnly</context>
 		<eventNames />
 		<subSounds>
 			<li>
@@ -89,6 +92,7 @@
 
 	<SoundDef>
 		<defName>Pawn_Feralisk_Death</defName>
+		<context>MapOnly</context>
 		<eventNames />
 		<subSounds>
 			<li>
@@ -118,6 +122,7 @@
 
 	<SoundDef>
 		<defName>Pawn_Frostmite_Call</defName>
+		<context>MapOnly</context>
 		<eventNames />
 		<subSounds>
 			<li>
@@ -145,6 +150,7 @@
 
 	<SoundDef>
 		<defName>Pawn_Frostmite_Angry</defName>
+		<context>MapOnly</context>
 		<eventNames />
 		<maxVoices>2</maxVoices>
 		<subSounds>
@@ -174,6 +180,7 @@
 
 	<SoundDef>
 		<defName>Pawn_Frostmite_Wounded</defName>
+		<context>MapOnly</context>
 		<eventNames />
 		<subSounds>
 			<li>
@@ -202,6 +209,7 @@
 
 	<SoundDef>
 		<defName>Pawn_Frostmite_Death</defName>
+		<context>MapOnly</context>
 		<eventNames />
 		<subSounds>
 			<li>
@@ -231,6 +239,7 @@
 
 	<SoundDef>
 		<defName>Pawn_Needlepost_Call</defName>
+		<context>MapOnly</context>
 		<eventNames />
 		<subSounds>
 			<li>
@@ -258,6 +267,7 @@
 
 	<SoundDef>
 		<defName>Pawn_Needlepost_Angry</defName>
+		<context>MapOnly</context>
 		<eventNames />
 		<maxVoices>2</maxVoices>
 		<subSounds>
@@ -287,6 +297,7 @@
 
 	<SoundDef>
 		<defName>Pawn_Needlepost_Wounded</defName>
+		<context>MapOnly</context>
 		<eventNames />
 		<subSounds>
 			<li>
@@ -318,6 +329,7 @@
 
 	<SoundDef>
 		<defName>Pawn_Needlepost_Death</defName>
+		<context>MapOnly</context>
 		<eventNames />
 		<subSounds>
 			<li>
@@ -347,6 +359,7 @@
 
 	<SoundDef>
 		<defName>Pawn_RaptorShrimp_Call</defName>
+		<context>MapOnly</context>
 		<eventNames />
 		<subSounds>
 			<li>
@@ -374,6 +387,7 @@
 
 	<SoundDef>
 		<defName>Pawn_RaptorShrimp_Angry</defName>
+		<context>MapOnly</context>
 		<eventNames />
 		<maxVoices>2</maxVoices>
 		<subSounds>
@@ -403,6 +417,7 @@
 
 	<SoundDef>
 		<defName>Pawn_RaptorShrimp_Wounded</defName>
+		<context>MapOnly</context>
 		<eventNames />
 		<subSounds>
 			<li>
@@ -431,6 +446,7 @@
 
 	<SoundDef>
 		<defName>Pawn_RaptorShrimp_Death</defName>
+		<context>MapOnly</context>
 		<eventNames />
 		<subSounds>
 			<li>
@@ -460,6 +476,7 @@
 
 	<SoundDef>
 		<defName>Pawn_Terramorph_Call</defName>
+		<context>MapOnly</context>
 		<eventNames />
 		<subSounds>
 			<li>
@@ -487,6 +504,7 @@
 
 	<SoundDef>
 		<defName>Pawn_Terramorph_Angry</defName>
+		<context>MapOnly</context>
 		<eventNames />
 		<maxVoices>2</maxVoices>
 		<subSounds>
@@ -516,6 +534,7 @@
 
 	<SoundDef>
 		<defName>Pawn_Terramorph_Wounded</defName>
+		<context>MapOnly</context>
 		<eventNames />
 		<subSounds>
 			<li>
@@ -544,6 +563,7 @@
 
 	<SoundDef>
 		<defName>Pawn_Terramorph_Death</defName>
+		<context>MapOnly</context>
 		<eventNames />
 		<subSounds>
 			<li>
@@ -569,4 +589,4 @@
 		</subSounds>
 	</SoundDef>
 
-</DefPackage-SoundDef>
+</Defs>

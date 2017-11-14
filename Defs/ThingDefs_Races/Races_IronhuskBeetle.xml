@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseInsect">
+    <defName>IronhuskBeetle</defName>
+    <label>ironhusk beetle</label>
+    <description>Peaceful and bulky "farm" animal that occasionally sheds metallic husks that you can smelt into steel bar - Not Implemented !!!
+      Only eats tree.</description>
+    <statBases>
+      <MoveSpeed>2.7</MoveSpeed>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+      <ComfyTemperatureMin>0</ComfyTemperatureMin>
+      <MarketValue>1000</MarketValue>
+      <LeatherAmount>0</LeatherAmount>
+    </statBases>
+    <tools>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>27</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>21</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+        <commonality>0.2</commonality>
+      </li>
+    </tools>
+    <race>
+      <body>BeetleLike</body>
+      <baseBodySize>2.5</baseBodySize>
+      <baseHungerRate>0.80</baseHungerRate>
+      <baseHealthScale>1.4</baseHealthScale>
+      <useMeatFrom>Megaspider</useMeatFrom>
+      <wildness>0.3</wildness>
+      <lifeExpectancy>10</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>EusocialInsectLarva</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>EusocialInsectJuvenile</def>
+          <minAge>0.03</minAge>
+        </li>
+        <li>
+          <def>EusocialInsectAdult</def>
+          <minAge>0.7</minAge>
+          <soundWounded>Pawn_Megascarab_Wounded</soundWounded>
+          <soundDeath>Pawn_Megascarab_Death</soundDeath>
+          <soundCall>Pawn_Megascarab_Call</soundCall>
+          <soundAngry>Pawn_Megascarab_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>Insectoid</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>IronhuskBeetle</defName>
+    <label>ironhusk beetle</label>
+    <race>IronhuskBeetle</race>
+    <combatPower>200</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<wildSpawn_EcoSystemWeight>0.25</wildSpawn_EcoSystemWeight>
+    <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/IronhuskBeetle</texPath>
+          <drawSize>2</drawSize>
+          <color>(114,107,84)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.8</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/IronhuskBeetle</texPath>
+          <drawSize>2.25</drawSize>
+          <color>(114,107,84)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.9</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/IronhuskBeetle</texPath>
+          <drawSize>2.5</drawSize>
+          <color>(114,107,84)</color>
+          <shadowData>
+            <volume>(0.2, 0.3, 0.2)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>2.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+</Defs>
