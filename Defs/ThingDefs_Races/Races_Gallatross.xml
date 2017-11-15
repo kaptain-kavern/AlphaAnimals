@@ -135,11 +135,11 @@
         </li>
         <li>
           <def>AnimalJuvenile</def>
-          <minAge>0.30</minAge>
+          <minAge>2.50</minAge>
         </li>
         <li>
           <def>AnimalAdult</def>
-          <minAge>1.50</minAge>
+          <minAge>5</minAge>
           <!--<soundWounded>Pawn_ArcticLion_Wounded</soundWounded>
           <soundDeath>Pawn_ArcticLion_Death</soundDeath>
           <soundCall>Pawn_ArcticLion_Call</soundCall>

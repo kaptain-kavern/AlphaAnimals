@@ -1,18 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- ============================================================ -->
-
   <ThingDef ParentName="BaseInsect">
-    <defName>Feralisk</defName>
-    <label>feralisk</label>
-    <description>Someone once thought that creating supersized spiders for synthread-web production was a good idea. Their home planet is now reduced to a Marble World; a world completely purged by atomic fire.</description>
+    <defName>Blizzarisk</defName>
+    <label>blizzarisk</label>
+    <description>Someone once thought that creating supersized spiders for hyperweave-webs production was a good idea. Their home planet is now reduced to a Marble World; a world completely purged by atomic fire.</description>
     <statBases>
-      <MoveSpeed>5.5</MoveSpeed>
-      <ComfyTemperatureMin>-12</ComfyTemperatureMin>
-      <MarketValue>2100</MarketValue>
-      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.2</ArmorRating_Heat>
+      <MoveSpeed>5.20</MoveSpeed>
+      <ComfyTemperatureMin>-70</ComfyTemperatureMin>
+      <MarketValue>3100</MarketValue>
+      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.4</ArmorRating_Heat>
     </statBases>
     <tools>
       <li>
@@ -62,16 +60,16 @@
     </tools>
     <comps>
       <li Class="CompProperties_Shearable">
-        <woolDef>Synthread</woolDef>
-        <shearIntervalDays>22</shearIntervalDays>
-        <woolAmount>33</woolAmount>
+        <woolDef>Hyperweave</woolDef>
+        <shearIntervalDays>30</shearIntervalDays>
+        <woolAmount>30</woolAmount>
       </li>
     </comps>
     <race>
       <wildBiomes>
-        <BorealForest>0.03</BorealForest>
-        <TemperateForest>0.03</TemperateForest>
-        <ColdBog>0.03</ColdBog>
+        <SeaIce>0.03</SeaIce>
+        <IceSheet>0.03</IceSheet>
+        <Tundra>0.03</Tundra>
       </wildBiomes>
       <herdAnimal>false</herdAnimal>
       <predator>true</predator>
@@ -85,7 +83,7 @@
       <meatColor>(160,150,140)</meatColor>
       <foodType>OmnivoreAnimal, AnimalProduct</foodType>
       <leatherColor>(93,74,68)</leatherColor>
-      <leatherLabel>feralisk skin</leatherLabel>
+      <leatherLabel>blizzarisk skin</leatherLabel>
       <leatherInsulation>1.2</leatherInsulation>
       <wildness>0.985</wildness>
       <trainableIntelligence>Advanced</trainableIntelligence>
@@ -139,7 +137,7 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Feralisk</texPath>
+          <texPath>Things/Pawn/Animal/Blizzarisk</texPath>
           <drawSize>0.7</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -149,7 +147,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Feralisk</texPath>
+          <texPath>Things/Pawn/Animal/Blizzarisk</texPath>
           <drawSize>1.3</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -159,7 +157,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Feralisk</texPath>
+          <texPath>Things/Pawn/Animal/Blizzarisk</texPath>
           <drawSize>1.6</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
