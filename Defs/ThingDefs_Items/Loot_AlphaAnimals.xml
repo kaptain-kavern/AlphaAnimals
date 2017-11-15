@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<!-- =============== Arctic Lion Wool ==================== -->
+<!-- =============== Arctic Lion Wool ==================== -->
 
-	<ThingDef ParentName="ResourceBase">
+	<ThingDef ParentName="WoolBase">
 		<defName>ArcticLionWool</defName>
 		<label>arctic lion wool</label>
 		<description>It's amazingly soft and warm, and coveted all over the galaxy.</description>
@@ -24,5 +24,25 @@
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
+
+<!-- =============== Nightling Egg =============== -->
+  
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggNightlingFertilized</defName>
+    <label>nightling egg (fert.)</label>
+    <description>Fertilized nightling egg. If all goes well, it should hatch into a baby nightling. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/AnimalProductRaw/EggNightling</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>100</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>15</hatcherDaystoHatch>
+        <hatcherPawn>Nightling</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
 
 </Defs>
