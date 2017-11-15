@@ -42,6 +42,14 @@
         <commonality>0.2</commonality>
       </li>
     </tools>
+    <comps>
+      <!-- Doesn't works -->
+      <li Class="CompProperties_Shearable">
+        <woolDef>Steel</woolDef>
+        <shearIntervalDays>20</shearIntervalDays>
+        <woolAmount>100</woolAmount>
+      </li>
+    </comps>
     <race>
       <body>BeetleLike</body>
       <baseBodySize>2.5</baseBodySize>
