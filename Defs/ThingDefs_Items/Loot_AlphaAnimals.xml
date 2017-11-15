@@ -26,23 +26,43 @@
 	</ThingDef>
 
 <!-- =============== Nightling Egg =============== -->
-  
-  <ThingDef ParentName="EggFertBase">
-    <defName>EggNightlingFertilized</defName>
-    <label>nightling egg (fert.)</label>
-    <description>Fertilized nightling egg. If all goes well, it should hatch into a baby nightling. It can be eaten raw, but it's much better cooked.</description>
-    <graphicData>
-      <texPath>Things/Item/Resource/AnimalProductRaw/EggNightling</texPath>
-    </graphicData>
-    <statBases>
-      <MarketValue>100</MarketValue>
-    </statBases>
-    <comps>
-      <li Class="CompProperties_Hatcher">
-        <hatcherDaystoHatch>15</hatcherDaystoHatch>
-        <hatcherPawn>Nightling</hatcherPawn>
-      </li>
-    </comps>
-  </ThingDef>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>EggNightlingFertilized</defName>
+		<label>nightling egg (fert.)</label>
+		<description>Fertilized nightling egg. If all goes well, it should hatch into a baby nightling. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggNightling</texPath>
+			<drawSize>1.8</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>100</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>15</hatcherDaystoHatch>
+				<hatcherPawn>Nightling</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>EggMeadowAveFertilized</defName>
+		<label>meadow ave egg (fert.)</label>
+		<description>Fertilized meadow ave egg. If all goes well, it should hatch into a baby meadow ave. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<color>(125,138,97)</color>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>19.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>7</hatcherDaystoHatch>
+				<hatcherPawn>MeadowAve</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
 
 </Defs>
