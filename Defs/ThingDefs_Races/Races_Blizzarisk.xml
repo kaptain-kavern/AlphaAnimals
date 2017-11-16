@@ -71,21 +71,21 @@
         <IceSheet>0.03</IceSheet>
         <Tundra>0.03</Tundra>
       </wildBiomes>
+      <body>Arachnid</body>
+      <baseBodySize>2.00</baseBodySize>
+      <baseHungerRate>0.7</baseHungerRate>
+      <baseHealthScale>1.9</baseHealthScale>
+      <wildness>0.985</wildness>
+      <lifeExpectancy>18</lifeExpectancy>
       <herdAnimal>false</herdAnimal>
       <predator>true</predator>
-      <body>Arachnid</body>
-      <herdAnimal>true</herdAnimal>
-      <baseBodySize>1.00</baseBodySize>
-      <baseHungerRate>0.7</baseHungerRate>
-      <baseHealthScale>1.2</baseHealthScale>
       <fleshType>Insectoid</fleshType>
       <bloodDef>FilthBloodInsect</bloodDef>
       <meatColor>(160,150,140)</meatColor>
-      <foodType>OmnivoreAnimal, AnimalProduct</foodType>
+      <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
       <leatherColor>(93,74,68)</leatherColor>
       <leatherLabel>blizzarisk skin</leatherLabel>
-      <leatherInsulation>1.2</leatherInsulation>
-      <wildness>0.985</wildness>
+      <leatherInsulation>1.3</leatherInsulation>
       <trainableIntelligence>Advanced</trainableIntelligence>
       <gestationPeriodDays>30</gestationPeriodDays>
       <manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
@@ -124,9 +124,9 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Feralisk</defName>
-    <race>Feralisk</race>
-    <label>feralisk</label>
+    <defName>Blizzarisk</defName>
+    <race>Blizzarisk</race>
+    <label>blizzarisk</label>
     <combatPower>300</combatPower>
     <wildSpawn_EcoSystemWeight>0.2</wildSpawn_EcoSystemWeight>
     <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
@@ -158,11 +158,11 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Blizzarisk</texPath>
-          <drawSize>1.6</drawSize>
+          <drawSize>1.9</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.6</drawSize>
+          <drawSize>1.9</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
