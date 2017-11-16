@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <!-- ============================================================ -->
-
   <ThingDef ParentName="BaseInsect">
     <defName>Feralisk</defName>
     <label>feralisk</label>
@@ -73,7 +71,6 @@
         <TemperateForest>0.03</TemperateForest>
         <ColdBog>0.03</ColdBog>
       </wildBiomes>
-      <herdAnimal>false</herdAnimal>
       <predator>true</predator>
       <body>Arachnid</body>
       <herdAnimal>true</herdAnimal>
@@ -88,7 +85,8 @@
       <leatherLabel>feralisk skin</leatherLabel>
       <leatherInsulation>1.2</leatherInsulation>
       <wildness>0.985</wildness>
-      <trainableIntelligence>Advanced</trainableIntelligence>
+      <lifeExpectancy>12</lifeExpectancy>
+      <trainableIntelligence>Intermediate</trainableIntelligence>
       <gestationPeriodDays>30</gestationPeriodDays>
       <manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
       <litterSizeCurve>

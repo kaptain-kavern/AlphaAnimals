@@ -76,6 +76,13 @@
         <commonality>0.2</commonality>
       </li>
     </tools>
+    <comps>
+      <li Class="CompProperties_Shearable">
+        <woolDef>ArcticLionWool</woolDef>
+        <shearIntervalDays>30</shearIntervalDays>
+        <woolAmount>20</woolAmount>
+      </li>
+    </comps>
     <race>
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <herdAnimal>false</herdAnimal>
@@ -160,7 +167,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/ArcticLion</texPath>
-          <drawSize>2.8</drawSize>
+          <drawSize>2.5</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
             <offset>(0,0,-0.1)</offset>
@@ -168,7 +175,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>2.8</drawSize>
+          <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

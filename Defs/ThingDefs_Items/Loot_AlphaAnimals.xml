@@ -8,8 +8,6 @@
 		<label>arctic lion wool</label>
 		<description>It's amazingly soft and warm, and coveted all over the galaxy.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/Wool</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
 			<color>(255,255,255)</color>
 		</graphicData>
 		<stuffProps>
