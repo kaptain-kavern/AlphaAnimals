@@ -48,7 +48,7 @@
 			<baseHealthScale>0.9</baseHealthScale>
       		<foodType>OmnivoreAnimal, AnimalProduct</foodType>
 			<leatherColor>(183,216,128)</leatherColor>
-			<leatherLabel>cactus flesh</leatherLabel>
+			<leatherLabel>Needlepost leather</leatherLabel>
 			<leatherInsulation>0.9</leatherInsulation>
 			<wildness>0.8</wildness>
 			<trainableIntelligence>None</trainableIntelligence>

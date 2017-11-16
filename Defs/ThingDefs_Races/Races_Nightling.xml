@@ -10,7 +10,7 @@
     </description>
     <statBases>
       <MoveSpeed>5.00</MoveSpeed>
-      <ComfyTemperatureMin>-65</ComfyTemperatureMin>
+      <ComfyTemperatureMin>-35</ComfyTemperatureMin>
       <MarketValue>750</MarketValue>
     </statBases>
     <tools>
@@ -94,10 +94,11 @@
       <baseBodySize>1.0</baseBodySize>
       <baseHungerRate>0.25</baseHungerRate>
       <baseHealthScale>1.15</baseHealthScale>
-      <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
+      <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
       <leatherColor>(24,24,31)</leatherColor>
       <leatherLabel>nightling fur</leatherLabel>
       <leatherInsulation>1.5</leatherInsulation>
+      <trainableIntelligence>Advanced</trainableIntelligence>
       <gestationPeriodDays>22.5</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
       <wildness>0.90</wildness>
@@ -135,6 +136,18 @@
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+      <wildBiomes>
+        <BorealForest>0.03</BorealForest>
+        <Tundra>0.03</Tundra>
+        <ColdBog>0.03</ColdBog>
+        <TemperateForest>0.05</TemperateForest>
+        <TemperateSwamp>0.05</TemperateSwamp>
+        <TropicalRainforest>0.05</TropicalRainforest>
+        <TropicalSwamp>0.04</TropicalSwamp>
+        <AridShrubland>0.04</AridShrubland>
+        <Desert>0.03</Desert>
+        <ExtremeDesert>0.02</ExtremeDesert>      
+      </wildBiomes>
     </race>
     <tradeTags>
       <li>BadassAnimal</li>

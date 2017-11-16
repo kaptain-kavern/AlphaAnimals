@@ -89,7 +89,7 @@
       <body>TurtleLike</body>
       <baseBodySize>4.00</baseBodySize>
       <baseHungerRate>2.0</baseHungerRate>
-      <baseHealthScale>3.0</baseHealthScale>
+      <baseHealthScale>9.0</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
       <leatherColor>(127,129,154)</leatherColor>
       <leatherLabel>bouldermit carapace</leatherLabel>
@@ -106,7 +106,7 @@
           <li>(1.01, 0)</li>
         </points>
       </litterSizeCurve>
-      <lifeExpectancy>20</lifeExpectancy>
+      <lifeExpectancy>120</lifeExpectancy>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
@@ -114,11 +114,11 @@
         </li>
         <li>
           <def>AnimalJuvenile</def>
-          <minAge>0.30</minAge>
+          <minAge>1</minAge>
         </li>
         <li>
           <def>AnimalAdult</def>
-          <minAge>1.50</minAge>
+          <minAge>2.50</minAge>
           <!--<soundWounded>Pawn_ArcticLion_Wounded</soundWounded>
           <soundDeath>Pawn_ArcticLion_Death</soundDeath>
           <soundCall>Pawn_ArcticLion_Call</soundCall>

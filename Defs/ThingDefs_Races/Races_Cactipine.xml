@@ -72,7 +72,7 @@
       <baseHealthScale>1.5</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
       <leatherColor>(127,129,154)</leatherColor>
-      <leatherLabel>cactipine leathe1</leatherLabel>
+      <leatherLabel>cactipine leather</leatherLabel>
       <leatherInsulation>1.3</leatherInsulation>
       <wildness>0.9</wildness>
       <manhunterOnDamageChance>1.0</manhunterOnDamageChance>
