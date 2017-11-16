@@ -91,23 +91,20 @@
     <race>MeadowAve</race>
     <lifeStages>
       <li>
+        <label>meadow ave chick</label>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/MeadowAve</texPath>
-          <drawSize>1.1</drawSize>
-          <color>(133,107,96)</color>
-          <shaderType>CutoutComplex</shaderType>
+          <texPath>Things/Pawn/Animal/MeadowAve/ChickMeadowAve</texPath>
+          <drawSize>0.85</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.1</drawSize>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <drawSize>0.85</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/MeadowAve</texPath>
+          <texPath>Things/Pawn/Animal/MeadowAve/YoungMeadowAve</texPath>
           <drawSize>1.4</drawSize>
-          <color>(133,107,96)</color>
-          <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
             <offset>(0,0,-0.3)</offset>
@@ -120,20 +117,16 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/MeadowAve</texPath>
-          <drawSize>1.8</drawSize>
-          <color>(62,58,66)</color>
-          <shaderType>CutoutComplex</shaderType>
+          <texPath>Things/Pawn/Animal/MeadowAve/MaleMeadowAve</texPath>
+          <drawSize>2</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
             <offset>(0,0,-0.2)</offset>
           </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
-          <texPath>Things/Pawn/Animal/Ostrich/Ostrich</texPath>
+          <texPath>Things/Pawn/Animal/MeadowAve/FemaleMeadowAve</texPath>
           <drawSize>1.8</drawSize>
-          <color>(133,107,96)</color>
-          <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
             <offset>(0,0,-0.2)</offset>
@@ -141,7 +134,7 @@
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.8</drawSize>
+          <drawSize>2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
