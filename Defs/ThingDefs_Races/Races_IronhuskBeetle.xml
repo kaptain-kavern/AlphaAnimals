@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="BaseInsect">
+  <ThingDef ParentName="AnimalThingBase">
     <defName>IronhuskBeetle</defName>
-    <label>ironhusk beetle</label>
-    <description>Peaceful and bulky "farm" animal that occasionally sheds metallic husks that you can smelt into steel bar - Not Implemented !!!
-      Only eats tree.</description>
+    <label>IronhuskBeetle</label>
+    <description>Peaceful and bulky "farm" animal that occasionally sheds metallic husks that you can smelt into steel. Only eats tree.</description>
     <statBases>
-      <MoveSpeed>2.7</MoveSpeed>
-      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
-      <ComfyTemperatureMin>0</ComfyTemperatureMin>
-      <MarketValue>1000</MarketValue>
-      <LeatherAmount>0</LeatherAmount>
+      <MoveSpeed>2.8</MoveSpeed>
+      <ComfyTemperatureMin>-8</ComfyTemperatureMin>
+      <MarketValue>3000</MarketValue>
     </statBases>
     <tools>
       <li>
@@ -39,77 +35,82 @@
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
-        <commonality>0.2</commonality>
+        <commonality>0.5</commonality>
       </li>
     </tools>
     <comps>
-      <!-- Doesn't works -->
       <li Class="CompProperties_Shearable">
-        <woolDef>Steel</woolDef>
-        <shearIntervalDays>20</shearIntervalDays>
-        <woolAmount>100</woolAmount>
+        <woolDef>ChunkSlagSteel</woolDef>
+        <shearIntervalDays>5</shearIntervalDays>
+        <woolAmount>3</woolAmount>
       </li>
     </comps>
     <race>
       <body>BeetleLike</body>
       <baseBodySize>2.5</baseBodySize>
-      <baseHungerRate>0.80</baseHungerRate>
-      <baseHealthScale>1.4</baseHealthScale>
-      <useMeatFrom>Megaspider</useMeatFrom>
-      <wildness>0.3</wildness>
+      <baseHealthScale>1.5</baseHealthScale>
+      <baseHungerRate>0.95</baseHungerRate>
+      <foodType>VegetarianRoughAnimal</foodType>
+      <leatherColor>(184,109,73)</leatherColor>
+      <leatherLabel>alpacahide</leatherLabel>
+      <leatherInsulation>1.1</leatherInsulation>
+      <wildness>0.2</wildness>
+      <trainableIntelligence>Intermediate</trainableIntelligence>
+      <gestationPeriodDays>50</gestationPeriodDays>
       <lifeExpectancy>10</lifeExpectancy>
       <lifeStageAges>
         <li>
-          <def>EusocialInsectLarva</def>
+          <def>AnimalBaby</def>
           <minAge>0</minAge>
         </li>
         <li>
-          <def>EusocialInsectJuvenile</def>
-          <minAge>0.03</minAge>
+          <def>AnimalJuvenile</def>
+          <minAge>0.2</minAge>
         </li>
         <li>
-          <def>EusocialInsectAdult</def>
-          <minAge>0.7</minAge>
-          <soundWounded>Pawn_Megascarab_Wounded</soundWounded>
-          <soundDeath>Pawn_Megascarab_Death</soundDeath>
-          <soundCall>Pawn_Megascarab_Call</soundCall>
-          <soundAngry>Pawn_Megascarab_Angry</soundAngry>
+          <def>AnimalAdult</def>
+          <minAge>0.45</minAge>
+          <soundWounded>Pawn_BigInsect_Pain</soundWounded>
+          <soundDeath>Pawn_BigInsect_Death</soundDeath>
+          <soundCall>Pawn_BigInsect_Call</soundCall>
+          <soundAngry>Pawn_BigInsect_Angry</soundAngry>
         </li>
       </lifeStageAges>
-      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
-      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
-      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>Insectoid</li>
+      <li>BadassAnimal</li>
     </tradeTags>
   </ThingDef>
-  
+
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>IronhuskBeetle</defName>
-    <label>ironhusk beetle</label>
+    <label>iron-husk beetle</label>
     <race>IronhuskBeetle</race>
     <combatPower>200</combatPower>
-		<canArriveManhunter>false</canArriveManhunter>
-		<wildSpawn_EcoSystemWeight>0.25</wildSpawn_EcoSystemWeight>
+    <canArriveManhunter>false</canArriveManhunter>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
     <lifeStages>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/IronhuskBeetle</texPath>
           <drawSize>2</drawSize>
-          <color>(114,107,84)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.8</drawSize>
+          <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/IronhuskBeetle</texPath>
-          <drawSize>2.25</drawSize>
-          <color>(114,107,84)</color>
+          <drawSize>1.95</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -120,10 +121,9 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/IronhuskBeetle</texPath>
           <drawSize>2.5</drawSize>
-          <color>(114,107,84)</color>
           <shadowData>
-            <volume>(0.2, 0.3, 0.2)</volume>
-            <offset>(0,0,0)</offset>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.2)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
