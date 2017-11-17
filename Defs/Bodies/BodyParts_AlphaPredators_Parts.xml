@@ -67,7 +67,7 @@
 		<skinCovered>true</skinCovered>
 		<useDestroyedOutLabel>true</useDestroyedOutLabel>
 		<tags>
-			<li>Moving_body</li>
+			<li>MovingLimbCore</li>
 		</tags>
 	</BodyPartDef>
 
@@ -80,7 +80,7 @@
 		<skinCovered>true</skinCovered>
 		<useDestroyedOutLabel>true</useDestroyedOutLabel>
 		<tags>
-			<li>Hearing_head</li>
+			<li>HearingSource</li>
 		</tags>
 	</BodyPartDef>
 
@@ -94,7 +94,7 @@
 		<useDestroyedOutLabel>true</useDestroyedOutLabel>
 		<tags>
 			<li>EatingSource</li>
-			<li>Talking_source</li>
+			<li>TalkingSource</li>
 		</tags>
 	</BodyPartDef>
 
@@ -107,7 +107,7 @@
 		<skinCovered>false</skinCovered>
 		<useDestroyedOutLabel>true</useDestroyedOutLabel>
 		<tags>
-			<li>Sight_source</li>
+			<li>SightSource</li>
 		</tags>
 	</BodyPartDef>
 
@@ -120,7 +120,7 @@
 		<skinCovered>false</skinCovered>
 		<useDestroyedOutLabel>true</useDestroyedOutLabel>
 		<tags>
-			<li>Sight_source</li>
+			<li>SightSource</li>
 		</tags>
 	</BodyPartDef>
 
@@ -133,7 +133,7 @@
 		<skinCovered>false</skinCovered>
 		<useDestroyedOutLabel>true</useDestroyedOutLabel>
 		<tags>
-			<li>Sight_source</li>
+			<li>SightSource</li>
 		</tags>
 	</BodyPartDef>
 
@@ -146,7 +146,7 @@
 		<skinCovered>false</skinCovered>
 		<useDestroyedOutLabel>true</useDestroyedOutLabel>
 		<tags>
-			<li>Sight_source</li>
+			<li>SightSource</li>
 		</tags>
 	</BodyPartDef>
 
@@ -159,7 +159,7 @@
 		<skinCovered>false</skinCovered>
 		<useDestroyedOutLabel>true</useDestroyedOutLabel>
 		<tags>
-			<li>Sight_source</li>
+			<li>SightSource</li>
 		</tags>
 	</BodyPartDef>
 
@@ -172,7 +172,7 @@
 		<skinCovered>false</skinCovered>
 		<useDestroyedOutLabel>true</useDestroyedOutLabel>
 		<tags>
-			<li>Sight_source</li>
+			<li>SightSource</li>
 		</tags>
 	</BodyPartDef>
 
@@ -185,7 +185,7 @@
 		<skinCovered>false</skinCovered>
 		<useDestroyedOutLabel>true</useDestroyedOutLabel>
 		<tags>
-			<li>Sight_source</li>
+			<li>SightSource</li>
 		</tags>
 	</BodyPartDef>
 
@@ -198,7 +198,7 @@
 		<skinCovered>false</skinCovered>
 		<useDestroyedOutLabel>true</useDestroyedOutLabel>
 		<tags>
-			<li>Sight_source</li>
+			<li>SightSource</li>
 		</tags>
 	</BodyPartDef>
 
@@ -210,7 +210,7 @@
 		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
 		<skinCovered>true</skinCovered>
 		<tags>
-			<li>Moving_leftWay</li>
+			<li>MovingLimbCore</li>
 		</tags>
 	</BodyPartDef>
 
@@ -222,7 +222,7 @@
 		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
 		<skinCovered>true</skinCovered>
 		<tags>
-			<li>Moving_leftWay</li>
+			<li>MovingLimbCore</li>
 		</tags>
 	</BodyPartDef>
 
@@ -234,7 +234,7 @@
 		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
 		<skinCovered>true</skinCovered>
 		<tags>
-			<li>Moving_leftWay</li>
+			<li>MovingLimbCore</li>
 		</tags>
 	</BodyPartDef>
 
@@ -246,7 +246,7 @@
 		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
 		<skinCovered>true</skinCovered>
 		<tags>
-			<li>Moving_leftWay</li>
+			<li>MovingLimbCore</li>
 		</tags>
 	</BodyPartDef>
 
@@ -258,7 +258,7 @@
 		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
 		<skinCovered>true</skinCovered>
 		<tags>
-			<li>Moving_rightWay</li>
+			<li>MovingLimbCore</li>
 		</tags>
 	</BodyPartDef>
 
@@ -270,7 +270,7 @@
 		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
 		<skinCovered>true</skinCovered>
 		<tags>
-			<li>Moving_rightWay</li>
+			<li>MovingLimbCore</li>
 		</tags>
 	</BodyPartDef>
 
@@ -282,7 +282,7 @@
 		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
 		<skinCovered>true</skinCovered>
 		<tags>
-			<li>Moving_rightWay</li>
+			<li>MovingLimbCore</li>
 		</tags>
 	</BodyPartDef>
 
@@ -294,7 +294,7 @@
 		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
 		<skinCovered>true</skinCovered>
 		<tags>
-			<li>Moving_rightWay</li>
+			<li>MovingLimbCore</li>
 		</tags>
 	</BodyPartDef>
 
