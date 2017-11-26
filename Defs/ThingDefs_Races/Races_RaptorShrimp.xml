@@ -79,7 +79,7 @@
       <herdAnimal>false</herdAnimal>
       <predator>true</predator>
 			<body>SnakeWithTwoLimbs</body>
-			<herdAnimal>true</herdAnimal>
+			<herdAnimal>false</herdAnimal>
 			<baseBodySize>1.40</baseBodySize>
 			<baseHungerRate>1.2</baseHungerRate>
 			<baseHealthScale>1.5</baseHealthScale>
@@ -132,11 +132,11 @@
     <race>RaptorShrimp</race>
     <label>raptor shrimp</label>
     <combatPower>300</combatPower>
-    <wildSpawn_EcoSystemWeight>0.2</wildSpawn_EcoSystemWeight>
+    <wildSpawn_EcoSystemWeight>0.9</wildSpawn_EcoSystemWeight>
     <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
     <wildSpawn_GroupSizeRange>
-      <min>4</min>
-      <max>6</max>
+      <min>1</min>
+      <max>3</max>
     </wildSpawn_GroupSizeRange>
     <lifeStages>
       <li>

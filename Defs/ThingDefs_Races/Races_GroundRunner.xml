@@ -84,7 +84,7 @@ Due to their domesticated origins, they are surprisingly docile and easy to tame
 			<predator>false</predator>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
 			<herdAnimal>true</herdAnimal>
-			<baseBodySize>2.50</baseBodySize>
+			<baseBodySize>2</baseBodySize>
 			<baseHungerRate>1</baseHungerRate>
 			<baseHealthScale>3</baseHealthScale>
 			<foodType>OmnivoreRoughAnimal</foodType>

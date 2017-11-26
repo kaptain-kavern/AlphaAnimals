@@ -97,7 +97,7 @@
       <wildness>0.9</wildness>
       <manhunterOnDamageChance>1.0</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
-      <trainableIntelligence>Advanced</trainableIntelligence>
+      <trainableIntelligence>Simple</trainableIntelligence>
       <gestationPeriodDays>120</gestationPeriodDays>
       <litterSizeCurve>
         <points>

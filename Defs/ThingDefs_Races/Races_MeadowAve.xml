@@ -12,7 +12,7 @@
     </statBases>
     <race>
       <herdAnimal>false</herdAnimal>
-      <baseBodySize>1.0</baseBodySize>
+      <baseBodySize>1.2</baseBodySize>
       <baseHealthScale>1.0</baseHealthScale>
 			<baseHungerRate>0.55</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
@@ -118,7 +118,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/MeadowAve/MaleMeadowAve</texPath>
-          <drawSize>2</drawSize>
+          <drawSize>2.4</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
             <offset>(0,0,-0.2)</offset>
@@ -126,7 +126,7 @@
         </bodyGraphicData>
         <femaleGraphicData>
           <texPath>Things/Pawn/Animal/MeadowAve/FemaleMeadowAve</texPath>
-          <drawSize>1.8</drawSize>
+          <drawSize>2</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
             <offset>(0,0,-0.2)</offset>
@@ -138,6 +138,11 @@
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
+    <wildSpawn_EcoSystemWeight>0.32</wildSpawn_EcoSystemWeight>
+    <wildSpawn_GroupSizeRange>
+      <min>3</min>
+      <max>7</max>
+    </wildSpawn_GroupSizeRange>
   </PawnKindDef>
 
 </Defs>
