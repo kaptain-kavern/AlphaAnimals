@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef ParentName="AnimalThingBase">
-    <defName>Nightling</defName>
+    <defName>AA_Nightling</defName>
     <label>nightling</label>
     <description>
       A large deformed beast with rows of quills on its back.
@@ -157,7 +157,7 @@
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>Nightling</defName>
     <label>nightling</label>
-    <race>Nightling</race>
+    <race>AA_Nightling</race>
     <combatPower>125</combatPower>
     <lifeStages>
       <li>

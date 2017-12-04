@@ -33,7 +33,7 @@
       <li>
         <label>left pincer</label>
         <cooldownTime>1.5</cooldownTime>
-        <power>20</power>
+        <power>10</power>
         <capacities>
           <li>Scratch</li>
         </capacities>
@@ -42,7 +42,7 @@
       <li>
         <label>right pincer</label>
         <cooldownTime>1.5</cooldownTime>
-        <power>20</power>
+        <power>10</power>
         <capacities>
           <li>Scratch</li>
         </capacities>
@@ -73,8 +73,9 @@
       <body>ScorpionLike</body>
       <herdAnimal>false</herdAnimal>
       <predator>true</predator>
-      <baseBodySize>2.50</baseBodySize>
-      <baseHungerRate>1.0</baseHungerRate>
+      <maxPreyBodySize>1.5</maxPreyBodySize>
+      <baseBodySize>1.50</baseBodySize>
+      <baseHungerRate>0.8</baseHungerRate>
       <baseHealthScale>2.0</baseHealthScale>
       <fleshType>Insectoid</fleshType>
       <bloodDef>FilthBloodInsect</bloodDef>
@@ -125,7 +126,7 @@
     <race>Barbslinger</race>
     <label>barbslinger</label>
     <combatPower>500</combatPower>
-    <wildSpawn_EcoSystemWeight>0.2</wildSpawn_EcoSystemWeight>
+    <wildSpawn_EcoSystemWeight>0.7</wildSpawn_EcoSystemWeight>
     <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
     <wildSpawn_GroupSizeRange>
       <min>1</min>
@@ -135,16 +136,6 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/BarbSlinger</texPath>
-          <drawSize>0.5</drawSize>
-        </bodyGraphicData>
-        <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>0.5</drawSize>
-        </dessicatedBodyGraphicData>
-      </li>
-      <li>
-        <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/BarbSlinger</texPath>
           <drawSize>0.9</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -160,6 +151,16 @@
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
           <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/BarbSlinger</texPath>
+          <drawSize>1.7</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <drawSize>1.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
